@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+        .com-detail {
+            background-color: rgb(51, 149, 51);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .nav {
+            background-color: rgb(55, 49, 49);
+            display: flex;
+            justify-content: center;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+        }
+        .about {
+            margin: 30px;
+            padding: 20px;
+            box-shadow: 2px 2px 12px rgb(51, 149, 51), -2px -2px 5px rgb(51, 149, 51);
+            border-radius: 20px;
+        }
+        .about h2 {
+            color: rgb(51, 149, 51);;
+        }
+        .about p {
+            text-align: justify;
+        }
+        table {
+            width: 100%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        th,
+        td {
+            padding: 16px 20px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(86, 170, 86);
+            /* Tailwind blue-600 */
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+
+        tr:hover {
+            background-color: #e0f2fe;
+            /* light blue on hover */
+        }
+        td {
+            color: #374151;
+            /* Tailwind gray-700 */
+        }
+        caption {
+            caption-side: top;
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .schedule{
+            margin: 30px;
+            padding: 20px;
+            box-shadow: 2px 2px 12px rgb(51, 149, 51), -2px -2px 5px rgb(51, 149, 51);;
+            border-radius: 20px;
+        }
+        .schedule h2{
+            color: rgb(51, 149, 51);;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="com-detail">
+            <h1>Welcome to CodeWithAalam TechOne 2025</h1>
+            <p>The ultimate placement(Technology and programming) conference</p>
+        </div>
+        <div class="nav">
+            <a href="#">About</a>
+            <a href="#">Schedule</a>
+            <a href="#">Speakers</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="about">
+        <h2>About the Event</h2>
+        <p>Join me in an exciting Web Development Bootcamp, where we'll cover everything from the basics of HTML and CSS
+            to building dynamic web apps with JavaScript and React. We'll also introduce backend concepts using Java and
+            Spring Boot to give you a complete full stack overview.
+            Date: [Insert Date]
+            Time: [Insert Time]
+            Location: [Insert Venue / Online Link]
+            Who Should Attend: Beginners, college students, and anyone interested in launching a web development career.
+            Takeaway: By the end of the bootcamp, you'll build and deploy your first full stack project!
+        </p>
+    </div>
+    <div class="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Contest</th>
+            </tr>
+            <tr>
+                <td>9:00AM</td>
+                <td>Opening Keynote</td>
+                <td>CWA Coding Platform</td>
+            </tr>
+            <tr>
+                <td>10:30AM</td>
+                <td>Understanding Core Java</td>
+                <td>Mohd Aalam</td>
+            </tr>
+            <tr>
+                <td>1:00PM</td>
+                <td>Frontend Web Tech Basics</td>
+                <td>Mohd Aalam</td>
+            </tr>
+            <tr>
+                <td>2:00PM</td>
+                <td>Projects</td>
+                <td>Mohd Aalam</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
